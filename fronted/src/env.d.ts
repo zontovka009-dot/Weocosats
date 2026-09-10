@@ -1,1 +1,0 @@
-declare global { interface Window { Telegram?: { WebApp: { ready():void; expand():void; setHeaderColor?(c:string):void; setBackgroundColor?(c:string):void; HapticFeedback?:{impactOccurred(s:'light'|'medium'|'heavy'):void} } } } } export {};
